@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>使用Hexo搭建个人博客</title>
+    <url>/2021/01/30/%E4%BD%BF%E7%94%A8Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h2 id="使用Hexo搭建个人博客"><a href="#使用Hexo搭建个人博客" class="headerlink" title="使用Hexo搭建个人博客"></a>使用Hexo搭建个人博客</h2><h3 id="Hexo框架成熟，遇到问题，网上的解决方案比较多"><a href="#Hexo框架成熟，遇到问题，网上的解决方案比较多" class="headerlink" title="Hexo框架成熟，遇到问题，网上的解决方案比较多"></a>Hexo框架成熟，遇到问题，网上的解决方案比较多</h3><h3 id="1-环境搭建"><a href="#1-环境搭建" class="headerlink" title="1.环境搭建"></a>1.环境搭建</h3><p>1.1 安装node.js</p>
+<p>1.2 安装npm </p>
+<blockquote>
+<p>建议：npm命令会去国外的镜像源下载相关依赖，速度较慢。推荐安装淘宝的cnpm</p>
+<p>命令：npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org/">https://registry.npm.taobao.org</a></p>
+</blockquote>
+<p>1.3 安装Hexo-cli  </p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">cnpm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>完成后使用  hexo  -v 验证是否安装成功</p>
+</blockquote>
+<p>至此，安装完成</p>
+<h3 id="2-搭建博客"><a href="#2-搭建博客" class="headerlink" title="2.搭建博客"></a>2.搭建博客</h3><p>2.1 初始化hexo</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+</search>

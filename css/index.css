@@ -1357,6 +1357,8 @@ canvas:not(#ribbon-canvas),
   --blockquote-bg: rgba(73,177,245,0.1);
   --reward-pop: #f5f5f5;
   --toc-link-color: #666261;
+  --card-box-shadow: 0 3px 8px 6px rgba(7,17,27,0.06);
+  --card-hover-box-shadow: 0 3px 8px 6px rgba(7,17,27,0.15);
 }
 html {
   height: 100%;
@@ -2091,12 +2093,12 @@ blockquote footer cite:before {
   padding: 50px 40px;
   border-radius: 8px;
   background: var(--card-bg);
-  -webkit-box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
-  box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
+  -webkit-box-shadow: var(--card-box-shadow);
+  box-shadow: var(--card-box-shadow);
 }
 .layout > div:first-child:not(.recent-posts):hover {
-  -webkit-box-shadow: 0 4px 12px 12px rgba(7,17,27,0.15);
-  box-shadow: 0 4px 12px 12px rgba(7,17,27,0.15);
+  -webkit-box-shadow: var(--card-hover-box-shadow);
+  box-shadow: var(--card-hover-box-shadow);
 }
 @media screen and (max-width: 768px) {
   .layout > div:first-child:not(.recent-posts) {
@@ -2252,8 +2254,8 @@ blockquote footer cite:before {
   height: 20em;
   border-radius: 12px 8px 8px 12px;
   background: var(--card-bg);
-  -webkit-box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
-  box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
+  -webkit-box-shadow: var(--card-box-shadow);
+  box-shadow: var(--card-box-shadow);
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -2266,8 +2268,8 @@ blockquote footer cite:before {
   }
 }
 #recent-posts > .recent-post-item:hover {
-  -webkit-box-shadow: 0 4px 12px 12px rgba(7,17,27,0.15);
-  box-shadow: 0 4px 12px 12px rgba(7,17,27,0.15);
+  -webkit-box-shadow: var(--card-hover-box-shadow);
+  box-shadow: var(--card-hover-box-shadow);
 }
 #recent-posts > .recent-post-item:hover img.post_bg {
   -webkit-transform: scale(1.1);
@@ -2474,8 +2476,8 @@ blockquote footer cite:before {
   padding: 1rem 1.2rem;
   border-radius: 8px;
   background: var(--card-bg);
-  -webkit-box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
-  box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
+  -webkit-box-shadow: var(--card-box-shadow);
+  box-shadow: var(--card-box-shadow);
   -webkit-transition: box-shadow 0.3s;
   -moz-transition: box-shadow 0.3s;
   -o-transition: box-shadow 0.3s;
@@ -2483,8 +2485,8 @@ blockquote footer cite:before {
   transition: box-shadow 0.3s;
 }
 #aside-content .card-widget:hover {
-  -webkit-box-shadow: 0 4px 12px 12px rgba(7,17,27,0.15);
-  box-shadow: 0 4px 12px 12px rgba(7,17,27,0.15);
+  -webkit-box-shadow: var(--card-hover-box-shadow);
+  box-shadow: var(--card-hover-box-shadow);
 }
 #aside-content .card-info img {
   width: 110px;
